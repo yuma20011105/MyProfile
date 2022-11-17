@@ -1,0 +1,104 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+    nav{
+        font-size: 34px;
+        font-weight: 700;
+        display: flex;
+        /*  */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px auto 20px auto;
+        max-width: 960px;
+        /*  */
+    }
+    .menu{
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+        text-decoration: none;
+    }
+    #myprofile{
+        border: 1px solid black;
+        /*  */
+        margin-left: 20px;
+        padding: 0px 20px;
+        /*  */
+        text-decoration: none;
+    }
+    #myprofile:active,:hover,:visited{
+        color: black;
+    }
+    #main-img{
+        width: 100%;
+    }
+    #about-img{
+        border-radius: 50%;
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        border: 3px solid #999;
+        padding: 3px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+    }
+    #about{
+        display: flex;
+        /*  */
+        padding: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px auto 20px auto;
+        max-width: 960px;
+        /*  */
+    }
+    .content{
+        margin: 0 auto;
+        padding-left: 40px;
+        font-size: 18px;
+    }
+    /*  */
+    p{
+        font-size: 18px;
+    }
+    /*  */
+    img{
+        margin: 0 auto;
+        text-align: center;
+        max-width: 100%;
+    }
+    /*  */
+    #works{
+        display: flex;
+        flex-wrap: wrap;
+        /*  */
+        justify-content:center;
+        margin: 20px auto 20px auto;
+        max-width: 960px;
+    }
+    .item{
+        padding-bottom: 60px;
+        width: 25%;
+    }
+    .item-center{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer{
+        text-align: center;
+        /*  */
+        padding-bottom: 20px;
+        /*  */
+    }
+/*  */
+@media (max-width:767px){
+    .item{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+/*  */
+    
